@@ -1,0 +1,30 @@
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  &__item {
+    width: 24px;
+    height: 24px;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &--insta {
+      background-image: url(../images/social/insta.png);
+    }
+
+    &--ball {
+      background-image: url(../images/social/ball.png);
+    }
+
+    &--tw {
+      background-image: url(../images/social/tw.png);
+    }
+
+    &--yt {
+      background-image: url(../images/social/yt.png);
+    }
+  }
+}
